@@ -4,6 +4,7 @@
 !/src/**
 !/pom.xml
 
+!/.github/**
 !/*.md
 !/.gitignore
 !/example.service
