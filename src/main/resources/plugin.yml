@@ -5,5 +5,4 @@ website: ${project.url}
 authors: [ nothub ]
 api-version: 1.13
 main: not.hub.systemd.Plugin
-load: STARTUP
 prefix: systemd
