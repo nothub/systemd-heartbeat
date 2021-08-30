@@ -87,7 +87,7 @@
     <dependency>
       <groupId>com.github.nothub</groupId>
       <artifactId>SDNotify</artifactId>
-      <version>SDNotify-1.5-SNAPSHOT</version>
+      <version>1.5-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>org.bstats</groupId>
