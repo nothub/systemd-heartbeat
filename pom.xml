@@ -8,6 +8,7 @@
   <artifactId>systemd-heartbeat</artifactId>
   <version>1.0-SNAPSHOT</version>
   <description>send notify heartbeats to systemd</description>
+  <url>https://github.com/nothub/systemd-heartbeat</url>
 
   <properties>
     <java.version>1.8</java.version>
