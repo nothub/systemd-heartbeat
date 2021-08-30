@@ -1,0 +1,9 @@
+*
+!*/
+
+!/src/**
+!/pom.xml
+
+!/*.md
+!/.gitignore
+!/example.service

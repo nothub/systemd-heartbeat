@@ -1,0 +1,16 @@
+[Unit]
+Description=My Paper Server
+After=network.target
+
+[Service]
+WorkingDirectory=/opt/server
+ExecStart=/usr/bin/java -jar server.jar nogui
+Type=notify
+NotifyAccess=all
+WatchdogSec=60
+Restart=always
+KillMode=mixed
+SuccessExitStatus=143
+
+[Install]
+WantedBy=multi-user.target
