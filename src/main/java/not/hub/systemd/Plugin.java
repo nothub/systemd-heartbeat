@@ -11,7 +11,7 @@ public final class Plugin extends JavaPlugin {
     public void onEnable() {
         new Metrics(this, 12657);
         if (!SDNotify.isWatchdogEnabled()) {
-            getLogger().warning("systemd watchdog is not available!");
+            getLogger().warning("systemd watchdog is not available (or accessible from this process)!");
             getServer().getPluginManager().disablePlugin(this);
             return;
         }
